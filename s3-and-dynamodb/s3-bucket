@@ -1,0 +1,10 @@
+resource "aws_s3_bucket" "pb4rk" {
+  bucket = "pb4rk"
+
+  force_destroy = "true"
+
+  tags = {
+    Name        = "rk"
+    Environment = "Dev"
+  }
+}
