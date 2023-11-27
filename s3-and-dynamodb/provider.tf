@@ -10,7 +10,7 @@ terraform {
 
     backend "s3" {
     bucket = "pb4rk"
-    key    = "mykey"
+    key    = "two"
     region = "ap-south-1"
     dynamodb_table = "table-timing"
   }
